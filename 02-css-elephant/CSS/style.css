@@ -1,0 +1,50 @@
+body {
+    background-color: yellow;
+    font-family: 'Salsa', cursive;
+}
+
+h2 {
+    font-size: 36px;
+    font-family: 'Bungee Spice', sans-serif;
+}
+
+h1 {
+    color: blue;
+    color: green;
+    font-size: 48px;
+    font-family: 'Bungee Spice', sans-serif;
+}
+p {
+    font-size: 24px;
+font-family: 'Salsa', cursive;
+}
+img{ 
+    width: 800px;
+    height: 600px;
+    border: 3px solid black;
+    border-color: blue;
+    border-radius: 50%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: 'Salsa', cursive;
+    /* border-style: solid;
+    border-color: black; */
+}
+
+#probo {
+    color: rebeccapurple;
+}
+/* th {
+    border: 1px solid black;
+}
+td {
+    border: 1px solid black;
+} */
+#asian {
+    border-color: darkred;
+}
+#african {
+    border-color: crimson;
+}

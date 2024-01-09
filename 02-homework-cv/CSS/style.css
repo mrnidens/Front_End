@@ -1,0 +1,21 @@
+body {
+
+    background-image: url(/02-homework-cv/images/fon_gradient_abstraktsiia_208498_3840x2160.jpg);
+    font-family: 'Salsa', cursive;
+}
+h2 {
+    font-size: 36px;
+    font-family: 'Bungee Spice', sans-serif;
+}
+
+h1 {
+    color: red;
+    font-size: 48px;
+    font-family: 'Bungee Spice', sans-serif;
+}
+
+img{ 
+    border: 1px solid orange;
+    width: 200px;
+    height: 250px;
+}
