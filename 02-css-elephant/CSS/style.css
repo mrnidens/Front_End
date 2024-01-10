@@ -17,6 +17,7 @@ h1 {
 p {
     font-size: 24px;
 font-family: 'Salsa', cursive;
+border: 5px dotted black;
 }
 img{ 
     width: 800px;
