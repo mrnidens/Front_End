@@ -17,10 +17,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* border-top: 1px solid transparent; 2 вариант*/
-    /* padding-top: 1px; 2 вариант*/
-    /* padding-top: 133px; 3 вариант
-    box-sizing: border-box; 3 вариант */
 }
 
 h1 {
@@ -29,38 +25,92 @@ h1 {
     color: rgba(16, 17, 4, 0.75);
     text-align: center;
     padding-top: 135px;
-    /* margin-top: 132px; 2 вариант*/
 }
-.main > ul{
+
+.main>div {
     list-style: none;
     padding: 0%;
 }
-.main li{
+
+.main div {
     margin: 100px 0;
-    border-bottom: 1px solid #e4bb97 ;
-    padding-bottom: 60px;
+    border: 1px solid #214e34;
+    padding-bottom: 150px;
+
 }
-.main li > h2 {
+
+.Brazil,
+.Colombia,
+.India,
+.Ethiopia,
+.Costa_Rica,
+.Kenya {
+    height: 100px;
+    width: 50%;
+    position: absolute;
+}
+
+.Brazil {
+    top: 400px;
+    left: 10px;
+    background-color: antiquewhite;
+}
+
+.Colombia {
+    top: 700px;
+    left: 10px;
+    background-color: antiquewhite;
+}
+
+.India {
+    top: 1000px;
+    left: 10px;
+    background-color: antiquewhite;
+}
+
+.Ethiopia {
+    top: 400px;
+    left: 52%;
+    width: 47.8%;
+    background-color: antiquewhite;
+}
+
+.Costa_Rica {
+    top: 700px;
+    left: 52%;
+    width: 47.8%;
+    background-color: antiquewhite;
+}
+
+.Kenya {
+    top: 1000px;
+    left: 52%;
+    width: 47.8%;
+    background-color: antiquewhite;
+}
+
+.main div>h2 {
     font-weight: 800;
     font-size: 28px;
     background-color: #aa8eb5;
     text-align: center;
     text-transform: uppercase;
 }
-.main li > p {
+
+.main div>p {
     color: #444;
     font-size: 20px;
     text-align: justify;
     text-indent: 32px;
     line-height: 1.5;
-    padding: 0 10px;
+    padding: 10px;
 }
 
-.main li p > a {
+.main div>p>a {
+    display: block;
     color: #214e34;
     font-weight: 600;
     text-transform: uppercase;
-    padding-left: 10px;
     text-decoration: none;
     letter-spacing: 2px;
 }
