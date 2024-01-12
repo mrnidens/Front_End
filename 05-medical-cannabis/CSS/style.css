@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap');
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(/05-medical-cannabis/images/33427217-medizinisches-cannabis-auf-rezept-2nhWbv9KwVe9.jpg);
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Pacifico', cursive;
+    font-size: 100px;
+    color: rgb(37, 138, 6);
+    text-align: center;
+    /* padding-top: 135px; */
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.Intro, .Benefits, .Legalise {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #c9eece;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.);
+    border-radius: 10px;
+}
+
+.main>div {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #4CAF50;
+    font-family: 'Pacifico', cursive;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+    font-family: 'Lobster', sans-serif;
+    font-size: 20px;
+}
+
+a {
+    color: #214e34;
+    font-weight: 600;
+    text-decoration: none;
+}
