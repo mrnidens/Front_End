@@ -35,8 +35,6 @@ h1 {
 .main div {
     margin: 100px 0;
     border: 1px solid #214e34;
-    padding-bottom: 150px;
-
 }
 
 .Brazil,
@@ -45,8 +43,8 @@ h1 {
 .Ethiopia,
 .Costa_Rica,
 .Kenya {
-    height: 100px;
-    width: 50%;
+    height: 250px;
+    width: 47.8%;
     position: absolute;
 }
 
@@ -71,22 +69,19 @@ h1 {
 .Ethiopia {
     top: 400px;
     left: 52%;
-    width: 47.8%;
     background-color: antiquewhite;
 }
 
 .Costa_Rica {
     top: 700px;
     left: 52%;
-    width: 47.8%;
     background-color: antiquewhite;
 }
 
 .Kenya {
     top: 1000px;
     left: 52%;
-    width: 47.8%;
-    background-color: antiquewhite;
+    background-color:  antiquewhite;
 }
 
 .main div>h2 {
