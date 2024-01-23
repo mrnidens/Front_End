@@ -15,7 +15,7 @@ function sumDigits(a) {
     let sum = 0;
     while (a) {
         sum += a % 10;
-        a = Math.floor(a / 10);
+        a = a / 10;
     }
     return sum;
 }
