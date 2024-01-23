@@ -2,6 +2,13 @@ let res = sumDigits(1234);
 console.log(`sum digits = ${res}`); // 10
 res = luckyNumber(123871); // 1 + 3 + 7 === 2 + 8 + 1
 console.log(res ? 'Lucky' : 'Unlucky'); // Lucky
+res = luckyNumber(12387143); 
+console.log(res ? 'Lucky' : 'Unlucky'); 
+res = luckyNumber(1238715); 
+console.log(res ? 'Lucky' : 'Unlucky'); 
+res = luckyNumber(12387155); 
+console.log(res ? 'Lucky' : 'Unlucky'); 
+
 
 
 function sumDigits(a) {
