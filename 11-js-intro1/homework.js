@@ -15,25 +15,16 @@ function sumDigits(a) {
     let sum = 0;
     while (a) {
         sum += a % 10;
-        a = a / 10;
+        a = (a - a % 10) / 10;
     }
     return sum;
 }
 
 function luckyNumber(a) {
-    let numberString = a.toString();
-    let sumOdd = 0;
-    let sumEven = 0;
-
-    for (let i = 0; i < numberString.length; i++) {
-        let digit = parseInt(numberString[i]);
-        
-        if (i % 2 === 0) {
-            sumEven += digit;
-        } else {
-            sumOdd += digit;
-        }
+    let sum = 0;
+    while (a) {
+        sum = a % 10 - sum;
+        a = (a - a % 10) / 10;
     }
-
-    return sumOdd === sumEven;
+    return !sum;
 }
