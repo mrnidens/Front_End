@@ -1,4 +1,8 @@
-setInterval(printTime, 1000);
+const a = setInterval(printTime, 1000);
+const switchButton = document.getElementById('switch');
+switchButton.onclick = function() {
+    clearInterval(a);
+}
 
 function printTime() {
     const d = new Date();
