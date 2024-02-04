@@ -31,6 +31,8 @@ addBook.onclick = function () {
 }
 
 printBooks.onclick = function () {
+    resultDiv.innerHTML = '';
+    const container = document.createElement('div');
 
     const resultDiv = document.getElementById('result');
 
@@ -50,16 +52,19 @@ printBooks.onclick = function () {
         const newestBook = library[library.length - 1];
 
 
-        const oldestLi = document.createElement('li');
+        const oldestLi = document.createElement('p');
         oldestLi.textContent = `Oldest Book: ${oldestBook.title} by ${oldestBook.author} (${oldestBook.year})`;
 
-        const newestLi = document.createElement('li');
+        const newestLi = document.createElement('p');
         newestLi.textContent = `Newest Book: ${newestBook.title} by ${newestBook.author} (${newestBook.year})`;
 
-        resultDiv.innerHTML = '';
-        resultDiv.appendChild(ul);
-        resultDiv.appendChild(oldestLi);
-        resultDiv.appendChild(newestLi);
+        container.append(ul, oldestLi, newestLi);
+
+        if (resultDiv.firstElementChild) {
+            resultDiv.replaceChild(container, resultDiv.firstElementChild);
+        } else {
+            resultDiv.appendChild(container);
+        }
     }
 }
 
