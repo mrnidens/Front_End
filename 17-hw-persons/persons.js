@@ -99,6 +99,8 @@ function displayPersons() {
 }
 
 function deletePerson(index) {
+    const container = document.getElementById('statsContainer');
+    container.innerHTML = '';
     register.splice(index, 1);
     displayPersons();
 }
