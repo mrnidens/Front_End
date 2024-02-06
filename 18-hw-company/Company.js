@@ -49,7 +49,7 @@ class Company {
     removeEmployee(index) {
         if (index >= 0 && index < this._employees.length) {
             this._employees.splice(index, 1);
-            return true; 
+            return true;
         }
         return false;
     }
