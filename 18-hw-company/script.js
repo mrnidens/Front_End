@@ -24,7 +24,6 @@ addPerson.onclick = function () {
         birthDate.value = '';
         salary.value = '';
 
-
         const container = document.getElementById('statsContainer');
         container.innerHTML = '';
 
