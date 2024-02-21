@@ -1,0 +1,63 @@
+.btn-danger {
+  border: 2px black solid;
+  border-radius: 5px;
+  background-color: rgba(204, 3, 35, 0.5);
+  color: rgb(255, 251, 0);
+}
+
+header {
+  border-radius: 15px 15px 0 0;
+  background-color: rgba(60, 69, 67, 0.6);
+}
+
+h1 {
+  font-size: 3em;
+} 
+
+/* Main */
+
+.border.float-end {
+  border-color:#eedb00 !important;
+  border-radius: 0 0 15px 15px;
+}
+
+.far_galaxy {
+  font-size: 2em;
+  letter-spacing: 0.2em;
+  line-height: 1.4;
+}
+
+.float-start img {
+  box-shadow: rgba(60, 69, 67, 0.6) 10px 10px;
+}
+
+.yoda {
+  border-bottom-right-radius: 15px;
+}
+
+.falcon {
+  border-bottom-left-radius: 15px;
+}
+
+/* Footer */
+
+.button > p {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.email {
+  font-size: 1.5em;
+  color: black;
+  font-variant: small-caps;
+}
+
+footer {
+  border-radius: 0 0 15px 15px;
+  height: 6em;
+  background-color: rgba(60, 69, 67, 0.6);
+}
+
+footer p {
+  font-size: 1em;
+}
