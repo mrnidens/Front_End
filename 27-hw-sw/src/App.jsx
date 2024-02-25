@@ -15,10 +15,6 @@ import './index.css';
 
 
 
-
-
-
-
 function App() {
   return (
     <div className="container-fluid">
@@ -26,7 +22,7 @@ function App() {
       <header>
         <nav className="fixed-top">
           <ul className="nav ms-5">
-            <li className="nav-item btn btn-danger mx-1">Home</li> 
+            <li className="nav-item btn btn-danger mx-1">Home</li>
             <li className="nav-item btn btn-danger mx-1">About Me</li>
             <li className="nav-item btn btn-danger mx-1">Star Wars</li>
             <li className="nav-item btn btn-danger mx-1">Contact</li>
@@ -43,40 +39,40 @@ function App() {
 
         <section className="float-end w-50 row border mx-1">
           <h2 className="col-12 text-center">Dream Team</h2>
-          <img className="col-4 p-1" src={friendImage1} alt="Friend 1" />       
-          <img className="col-4 p-1" src={friendImage2} alt="Friend 2" />            
-          <img className="col-4 p-1" src={friendImage3} alt="Friend 3" />            
-          <img className="col-4 p-1" src={friendImage4} alt="Friend 4" />            
-          <img className="col-4 p-1" src={friendImage5} alt="Friend 5" />            
-          <img className="col-4 p-1" src={friendImage6} alt="Friend 6" />           
-          <img className="col-4 p-1" src={friendImage7} alt="Friend 7" />            
-          <img className="col-4 p-1" src={friendImage8} alt="Friend 8" />            
-          <img className="col-4 p-1" src={friendImage9} alt="Friend 9" />            
- 
+          <img className="col-4 p-1" src={friendImage1} alt="Friend 1" />
+          <img className="col-4 p-1" src={friendImage2} alt="Friend 2" />
+          <img className="col-4 p-1" src={friendImage3} alt="Friend 3" />
+          <img className="col-4 p-1" src={friendImage4} alt="Friend 4" />
+          <img className="col-4 p-1" src={friendImage5} alt="Friend 5" />
+          <img className="col-4 p-1" src={friendImage6} alt="Friend 6" />
+          <img className="col-4 p-1" src={friendImage7} alt="Friend 7" />
+          <img className="col-4 p-1" src={friendImage8} alt="Friend 8" />
+          <img className="col-4 p-1" src={friendImage9} alt="Friend 9" />
+
         </section>
 
         <p className="far_galaxy">
-        It is a period of civil war.
-            Rebel spaceships, striking
-            from a hidden base, have won
-            their first victory against
-            the evil Galactic Empire.
+          It is a period of civil war.
+          Rebel spaceships, striking
+          from a hidden base, have won
+          their first victory against
+          the evil Galactic Empire.
 
-            During the battle, Rebel
-            spies managed to steal secret
-            plans to the Empire's
-            ultimate weapon, the DEATH
-            STAR, an armored space
-            station with enough power
-            to destroy an entire planet.
+          During the battle, Rebel
+          spies managed to steal secret
+          plans to the Empire's
+          ultimate weapon, the DEATH
+          STAR, an armored space
+          station with enough power
+          to destroy an entire planet.
 
-            Pursued by the Empire's
-            sinister agents, Princess
-            Leia races home aboard her
-            starship, custodian of the
-            stolen plans that can save her
-            people and restore
-            freedom to the galaxy....
+          Pursued by the Empire's
+          sinister agents, Princess
+          Leia races home aboard her
+          starship, custodian of the
+          stolen plans that can save her
+          people and restore
+          freedom to the galaxy....
         </p>
       </main>
 
