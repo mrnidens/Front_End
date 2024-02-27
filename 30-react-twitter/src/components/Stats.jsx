@@ -1,10 +1,27 @@
-import React, { useContext } from 'react'
-import Avatar from './Avatar'
-import { TwitterContext } from '../utils/context'
+
+import Avatar from './Avatar';
+
+import React, { useContext } from 'react';
+import { TwitterContext } from '../utils/context';
 
 const Stats = () => {
+    const { user, stats, setStats } = useContext(TwitterContext);
 
-    const { user, stats } = useContext(TwitterContext);
+    const increaseStat = (statKey) => {
+        setStats(prevStats => ({
+            ...prevStats,
+            [statKey]: prevStats[statKey] + 1
+        }));
+    };
+
+    const decrementStat = (statKey) => {
+        if (stats[statKey] > 0) {
+            setStats(prevStats => ({
+                ...prevStats,
+                [statKey]: prevStats[statKey] - 1
+            }));
+        }
+    };
 
     return (
         <div className='user-stats'>
@@ -13,11 +30,19 @@ const Stats = () => {
                 {user.name}
             </div>
             <div className='stats'>
-                <div>Followers: {stats.followers}</div>
-                <div>Following: {stats.following}</div>
+                <div>
+                    <span onClick={() => increaseStat('followers')} onContextMenu={(e) => 
+                      { e.preventDefault(); decrementStat('followers') }}>Followers: {stats.followers}
+                      </span>
+                </div>
+                <div>
+                    <span onClick={() => increaseStat('following')} onContextMenu={(e) => 
+                      { e.preventDefault(); decrementStat('following') }}>Following: {stats.following}
+                      </span>
+                </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default Stats
+export default Stats;
